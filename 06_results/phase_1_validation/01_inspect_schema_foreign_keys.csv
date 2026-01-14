@@ -1,0 +1,7 @@
+child_table,child_column,parent_table,parent_column
+order_items,order_id,orders,order_id
+order_items,product_id,products,product_id
+order_items,seller_id,sellers,seller_id
+orders,customer_id,customers,customer_id
+payments,order_id,orders,order_id
+reviews,order_id,orders,order_id
