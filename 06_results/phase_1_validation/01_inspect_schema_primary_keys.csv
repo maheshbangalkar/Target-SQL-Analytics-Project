@@ -1,0 +1,10 @@
+table_name,column_name
+customers,customer_id
+order_items,order_id
+order_items,order_item_id
+orders,order_id
+payments,order_id
+payments,payment_sequential
+products,product_id
+reviews,review_id
+sellers,seller_id

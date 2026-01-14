@@ -1,0 +1,4 @@
+order_year,total_orders,prev_year_orders,yoy_growth_percent
+2016,329,NULL,NULL
+2017,45101,329,13608.51
+2018,54011,45101,19.76

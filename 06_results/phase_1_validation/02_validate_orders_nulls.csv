@@ -1,0 +1,2 @@
+order_id_nulls,customer_id_nulls,order_status_nulls,order_purchase_timestamp_nulls,order_approved_at_nulls,order_delivered_carrier_date_nulls,order_delivered_customer_date_nulls,order_estimated_delivery_date_nulls
+0,0,0,0,160,1783,2965,0

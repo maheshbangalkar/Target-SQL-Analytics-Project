@@ -1,0 +1,51 @@
+table_name,column_name,data_type,character_maximum_length,numeric_precision,numeric_scale,is_nullable
+customers,customer_id,uuid,,,,NO
+customers,customer_unique_id,uuid,,,,NO
+customers,customer_zip_code_prefix,integer,,32.0,0.0,YES
+customers,customer_city,character varying,100.0,,,YES
+customers,customer_state,character varying,10.0,,,YES
+geolocation,geolocation_zip_code_prefix,integer,,32.0,0.0,YES
+geolocation,geolocation_lat,double precision,,53.0,,YES
+geolocation,geolocation_lng,double precision,,53.0,,YES
+geolocation,geolocation_city,character varying,100.0,,,YES
+geolocation,geolocation_state,character varying,10.0,,,YES
+order_items,order_id,uuid,,,,NO
+order_items,order_item_id,integer,,32.0,0.0,NO
+order_items,product_id,uuid,,,,NO
+order_items,seller_id,uuid,,,,NO
+order_items,shipping_limit_date,timestamp without time zone,,,,YES
+order_items,price,numeric,,10.0,2.0,YES
+order_items,freight_value,numeric,,10.0,2.0,YES
+orders,order_id,uuid,,,,NO
+orders,customer_id,uuid,,,,NO
+orders,order_status,character varying,30.0,,,YES
+orders,order_purchase_timestamp,timestamp without time zone,,,,YES
+orders,order_approved_at,timestamp without time zone,,,,YES
+orders,order_delivered_carrier_date,timestamp without time zone,,,,YES
+orders,order_delivered_customer_date,timestamp without time zone,,,,YES
+orders,order_estimated_delivery_date,timestamp without time zone,,,,YES
+payments,order_id,uuid,,,,NO
+payments,payment_sequential,integer,,32.0,0.0,NO
+payments,payment_type,character varying,50.0,,,YES
+payments,payment_installments,integer,,32.0,0.0,YES
+payments,payment_value,numeric,,10.0,2.0,YES
+products,product_id,uuid,,,,NO
+products,product_category_name,character varying,100.0,,,YES
+products,product_name_lenght,integer,,32.0,0.0,YES
+products,product_description_lenght,integer,,32.0,0.0,YES
+products,product_photos_qty,integer,,32.0,0.0,YES
+products,product_weight_g,integer,,32.0,0.0,YES
+products,product_length_cm,integer,,32.0,0.0,YES
+products,product_height_cm,integer,,32.0,0.0,YES
+products,product_width_cm,integer,,32.0,0.0,YES
+reviews,review_id,uuid,,,,NO
+reviews,order_id,uuid,,,,NO
+reviews,review_score,integer,,32.0,0.0,YES
+reviews,review_comment_title,character varying,255.0,,,YES
+reviews,review_comment_message,text,,,,YES
+reviews,review_creation_date,timestamp without time zone,,,,YES
+reviews,review_answer_timestamp,timestamp without time zone,,,,YES
+sellers,seller_id,uuid,,,,NO
+sellers,seller_zip_code_prefix,integer,,32.0,0.0,YES
+sellers,seller_city,character varying,100.0,,,YES
+sellers,seller_state,character varying,10.0,,,YES
