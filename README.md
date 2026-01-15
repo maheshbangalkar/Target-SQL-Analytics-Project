@@ -76,6 +76,34 @@ All query outputs are stored as CSV files for transparency and reproducibility.
 
 ---
 
+## 📚 Data Source & Attribution
+
+This project uses a publicly available e-commerce dataset sourced from **Kaggle**.
+
+**Dataset Details:**
+- **Dataset Name:** Brazilian E-Commerce Public Dataset by Olist  
+- **Platform:** Kaggle  
+- **Source:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce  
+- **Time Period Covered:** 2016 – 2018  
+- **License:** As specified on the Kaggle dataset page (CC BY-NC-SA 4.0)
+
+The dataset is used **strictly for educational, analytical, and portfolio purposes**.
+
+All SQL queries, data modeling decisions, analysis workflows, and business insights in this repository are **independently developed** and are **not affiliated with or endorsed by Kaggle, Olist, or Target**.
+
+---
+
+## 🔐 Licensing Clarification
+
+- The MIT License included in this repository applies **only to the source code,
+  SQL scripts, and documentation** authored in this project.
+- Ownership and licensing of the dataset remain with the **original dataset
+  creators** as defined by Kaggle.
+- The dataset is included solely to support **transparency and reproducibility**
+  of the analysis.
+
+---
+
 ## ✅ Notes
 - CSV format is used for portability and easy version control  
 - Excel files may be used locally for exploration but are not tracked in this repository  
